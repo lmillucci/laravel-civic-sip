@@ -5,6 +5,8 @@ namespace LMillucci\CivicSIP\Facades;
 use Illuminate\Support\Facades\Facade;
 
 /**
+ * @method static \Blockvis\Civic\Sip\Client exchangeToken(string $jwtToken)
+ *
  * @see \Blockvis\Civic\Sip\Client
  */
 class CivicFacade extends Facade

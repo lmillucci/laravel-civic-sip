@@ -2,9 +2,6 @@
     "name": "lmillucci/laravel-civic-sip",
     "description": "A service made to provide, set up and use the library from blockvis civic-sip-php in Laravel.",
     "type": "library",
-    "require": {
-        "blockvis/civic-sip-php": "1.1.0"
-    },
     "license": "MIT",
     "authors": [
         {
@@ -12,7 +9,11 @@
             "email": "lorenzo.millucci@slope.it"
         }
     ],
-    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.0",
+        "blockvis/civic-sip-php": "1.1.0"
+    },
+    "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
             "LMillucci\\CivicSIP\\": "src/"
@@ -24,7 +25,7 @@
                 "LMillucci\\CivicSIP\\Providers\\CivicServiceProvider"
             ],
             "aliases": {
-                "Mongo": "LMillucci\\CivicSIP\\Facades\\CivicFacade"
+                "Civic": "LMillucci\\CivicSIP\\Facades\\CivicFacade"
             }
         }
     }
