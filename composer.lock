@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ee21ee33ec50351f63eebe29cf014585",
+    "content-hash": "c0e967cf887422c120cac0d0d8eda3f7",
     "packages": [
         {
             "name": "beberlei/assert",
@@ -114,27 +114,27 @@
         },
         {
             "name": "fgrosse/phpasn1",
-            "version": "dev-master",
+            "version": "2.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fgrosse/PHPASN1.git",
-                "reference": "734e1a94dfb292199f4f285be99a5645ea66fb58"
+                "reference": "0e27e71e3d0a8d5c3f1471d727fd9574d920f33c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fgrosse/PHPASN1/zipball/734e1a94dfb292199f4f285be99a5645ea66fb58",
-                "reference": "734e1a94dfb292199f4f285be99a5645ea66fb58",
+                "url": "https://api.github.com/repos/fgrosse/PHPASN1/zipball/0e27e71e3d0a8d5c3f1471d727fd9574d920f33c",
+                "reference": "0e27e71e3d0a8d5c3f1471d727fd9574d920f33c",
                 "shasum": ""
             },
             "require": {
+                "ext-gmp": "*",
                 "php": ">=7.0.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "~6.3",
-                "satooshi/php-coveralls": "~2.0"
+                "satooshi/php-coveralls": "dev-master"
             },
             "suggest": {
-                "ext-gmp": "GMP is the preferred extension for big integer calculations",
                 "php-curl": "For loading OID information from the web if they have not bee defined statically"
             },
             "type": "library",
@@ -179,20 +179,20 @@
                 "x509",
                 "x690"
             ],
-            "time": "2018-03-31T08:32:19+00:00"
+            "time": "2017-12-17T10:21:51+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
-            "version": "dev-master",
+            "version": "6.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "b4e2ffb457f37d629a6ec9b72fd0d9c85f3dfe2c"
+                "reference": "407b0cb880ace85c9b63c5f9551db498cb2d50ba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/b4e2ffb457f37d629a6ec9b72fd0d9c85f3dfe2c",
-                "reference": "b4e2ffb457f37d629a6ec9b72fd0d9c85f3dfe2c",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/407b0cb880ace85c9b63c5f9551db498cb2d50ba",
+                "reference": "407b0cb880ace85c9b63c5f9551db498cb2d50ba",
                 "shasum": ""
             },
             "require": {
@@ -244,27 +244,27 @@
                 "rest",
                 "web service"
             ],
-            "time": "2018-06-14T22:09:16+00:00"
+            "time": "2018-04-22T15:46:56+00:00"
         },
         {
             "name": "guzzlehttp/promises",
-            "version": "dev-master",
+            "version": "v1.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/promises.git",
-                "reference": "136531aa4e42f9b1971a47fb0faf60da00d2fefa"
+                "reference": "a59da6cf61d80060647ff4d3eb2c03a2bc694646"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/promises/zipball/136531aa4e42f9b1971a47fb0faf60da00d2fefa",
-                "reference": "136531aa4e42f9b1971a47fb0faf60da00d2fefa",
+                "url": "https://api.github.com/repos/guzzle/promises/zipball/a59da6cf61d80060647ff4d3eb2c03a2bc694646",
+                "reference": "a59da6cf61d80060647ff4d3eb2c03a2bc694646",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.5.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "^4.8.36"
+                "phpunit/phpunit": "^4.0"
             },
             "type": "library",
             "extra": {
@@ -295,26 +295,25 @@
             "keywords": [
                 "promise"
             ],
-            "time": "2018-03-25T01:26:01+00:00"
+            "time": "2016-12-20T10:07:11+00:00"
         },
         {
             "name": "guzzlehttp/psr7",
-            "version": "dev-master",
+            "version": "1.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/psr7.git",
-                "reference": "58f6e264ef0e4107c8b3d15a9c2e653b2bce0b4d"
+                "reference": "f5b8a8512e2b58b0071a7280e39f14f72e05d87c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/psr7/zipball/58f6e264ef0e4107c8b3d15a9c2e653b2bce0b4d",
-                "reference": "58f6e264ef0e4107c8b3d15a9c2e653b2bce0b4d",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/f5b8a8512e2b58b0071a7280e39f14f72e05d87c",
+                "reference": "f5b8a8512e2b58b0071a7280e39f14f72e05d87c",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.4.0",
-                "psr/http-message": "~1.0",
-                "ralouphie/getallheaders": "^2.0.5"
+                "psr/http-message": "~1.0"
             },
             "provide": {
                 "psr/http-message-implementation": "1.0"
@@ -325,7 +324,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.5-dev"
+                    "dev-master": "1.4-dev"
                 }
             },
             "autoload": {
@@ -361,7 +360,7 @@
                 "uri",
                 "url"
             ],
-            "time": "2018-06-08T08:55:26+00:00"
+            "time": "2017-03-20T17:10:46+00:00"
         },
         {
             "name": "mdanter/ecc",
@@ -486,16 +485,16 @@
         },
         {
             "name": "psr/cache",
-            "version": "dev-master",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/cache.git",
-                "reference": "78c5a01ddbf11cf731f1338a4f5aba23b14d5b47"
+                "reference": "d11b50ad223250cf17b86e38383413f5a6764bf8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/cache/zipball/78c5a01ddbf11cf731f1338a4f5aba23b14d5b47",
-                "reference": "78c5a01ddbf11cf731f1338a4f5aba23b14d5b47",
+                "url": "https://api.github.com/repos/php-fig/cache/zipball/d11b50ad223250cf17b86e38383413f5a6764bf8",
+                "reference": "d11b50ad223250cf17b86e38383413f5a6764bf8",
                 "shasum": ""
             },
             "require": {
@@ -528,11 +527,11 @@
                 "psr",
                 "psr-6"
             ],
-            "time": "2016-10-13T14:48:10+00:00"
+            "time": "2016-08-06T20:24:11+00:00"
         },
         {
             "name": "psr/http-message",
-            "version": "dev-master",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/http-message.git",
@@ -581,57 +580,17 @@
             "time": "2016-08-06T14:39:51+00:00"
         },
         {
-            "name": "ralouphie/getallheaders",
-            "version": "2.0.5",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/ralouphie/getallheaders.git",
-                "reference": "5601c8a83fbba7ef674a7369456d12f1e0d0eafa"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/ralouphie/getallheaders/zipball/5601c8a83fbba7ef674a7369456d12f1e0d0eafa",
-                "reference": "5601c8a83fbba7ef674a7369456d12f1e0d0eafa",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "~3.7.0",
-                "satooshi/php-coveralls": ">=1.0"
-            },
-            "type": "library",
-            "autoload": {
-                "files": [
-                    "src/getallheaders.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Ralph Khattar",
-                    "email": "ralph.khattar@gmail.com"
-                }
-            ],
-            "description": "A polyfill for getallheaders.",
-            "time": "2016-02-11T07:05:27+00:00"
-        },
-        {
             "name": "ramsey/uuid",
-            "version": "dev-master",
+            "version": "3.7.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ramsey/uuid.git",
-                "reference": "29fb62b48611761b4c0c4e8f4a428cad19c2b690"
+                "reference": "44abcdad877d9a46685a3a4d221e3b2c4b87cb76"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ramsey/uuid/zipball/29fb62b48611761b4c0c4e8f4a428cad19c2b690",
-                "reference": "29fb62b48611761b4c0c4e8f4a428cad19c2b690",
+                "url": "https://api.github.com/repos/ramsey/uuid/zipball/44abcdad877d9a46685a3a4d221e3b2c4b87cb76",
+                "reference": "44abcdad877d9a46685a3a4d221e3b2c4b87cb76",
                 "shasum": ""
             },
             "require": {
@@ -644,13 +603,13 @@
             "require-dev": {
                 "codeception/aspect-mock": "^1.0 | ~2.0.0",
                 "doctrine/annotations": "~1.2.0",
-                "goaop/framework": "1.0.0-alpha.2 | ^1.0 | ~2.1.0",
+                "goaop/framework": "1.0.0-alpha.2 | ^1.0 | ^2.1",
                 "ircmaxell/random-lib": "^1.1",
                 "jakub-onderka/php-parallel-lint": "^0.9.0",
                 "mockery/mockery": "^0.9.9",
                 "moontoast/math": "^1.1",
                 "php-mock/php-mock-phpunit": "^0.3|^1.1",
-                "phpunit/phpunit": "^4.7|^5.0|^6.5",
+                "phpunit/phpunit": "^4.7|^5.0",
                 "squizlabs/php_codesniffer": "^2.3"
             },
             "suggest": {
@@ -698,11 +657,11 @@
                 "identifier",
                 "uuid"
             ],
-            "time": "2018-04-25T19:14:32+00:00"
+            "time": "2018-01-20T00:28:24+00:00"
         },
         {
             "name": "spomky-labs/aes-key-wrap",
-            "version": "dev-master",
+            "version": "v4.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Spomky-Labs/aes-key-wrap.git",
@@ -761,16 +720,16 @@
         },
         {
             "name": "spomky-labs/base64url",
-            "version": "v1.x-dev",
+            "version": "v1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Spomky-Labs/base64url.git",
-                "reference": "a6d123a94f7b9b9dacebd1d8db205d81289fa2ea"
+                "reference": "ef6d5fb93894063d9cee996022259fd08d6646ea"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Spomky-Labs/base64url/zipball/a6d123a94f7b9b9dacebd1d8db205d81289fa2ea",
-                "reference": "a6d123a94f7b9b9dacebd1d8db205d81289fa2ea",
+                "url": "https://api.github.com/repos/Spomky-Labs/base64url/zipball/ef6d5fb93894063d9cee996022259fd08d6646ea",
+                "reference": "ef6d5fb93894063d9cee996022259fd08d6646ea",
                 "shasum": ""
             },
             "require": {
@@ -809,25 +768,24 @@
                 "safe",
                 "url"
             ],
-            "time": "2016-07-21T11:54:04+00:00"
+            "time": "2016-01-21T19:50:30+00:00"
         },
         {
             "name": "spomky-labs/jose",
-            "version": "dev-master",
+            "version": "v7.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Spomky-Labs/jose.git",
-                "reference": "d2ba9ba5a5cc66ca22edc07c2e9190ec6c7664e2"
+                "reference": "c7835297fa6a2c00dcdcbfadd67f7ea099b226a1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Spomky-Labs/jose/zipball/d2ba9ba5a5cc66ca22edc07c2e9190ec6c7664e2",
-                "reference": "d2ba9ba5a5cc66ca22edc07c2e9190ec6c7664e2",
+                "url": "https://api.github.com/repos/Spomky-Labs/jose/zipball/c7835297fa6a2c00dcdcbfadd67f7ea099b226a1",
+                "reference": "c7835297fa6a2c00dcdcbfadd67f7ea099b226a1",
                 "shasum": ""
             },
             "require": {
                 "beberlei/assert": "^2.4",
-                "ext-gmp": "*",
                 "fgrosse/phpasn1": "^2.0",
                 "lib-openssl": "*",
                 "mdanter/ecc": "0.5.*",
@@ -845,7 +803,6 @@
             },
             "suggest": {
                 "ext-crypto": "Highly recommended when you use AES GCM based algorithms.",
-                "ext-curl": "Needed by the JKU/X5U keyset factory.",
                 "ext-curve25519": "For EdDSA with X25519 curves support.",
                 "ext-ed25519": "For EdDSA with Ed25519 curves support."
             },
@@ -892,11 +849,11 @@
                 "jwa",
                 "jwt"
             ],
-            "time": "2018-05-15T07:38:30+00:00"
+            "time": "2018-05-03T07:34:56+00:00"
         },
         {
             "name": "spomky-labs/php-aes-gcm",
-            "version": "v1.x-dev",
+            "version": "v1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Spomky-Labs/php-aes-gcm.git",
@@ -958,16 +915,16 @@
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "dev-master",
+            "version": "v1.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "25b83a5050c6607e2dfa814ffb15388caf7ce690"
+                "reference": "3296adf6a6454a050679cde90f95350ad604b171"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/25b83a5050c6607e2dfa814ffb15388caf7ce690",
-                "reference": "25b83a5050c6607e2dfa814ffb15388caf7ce690",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/3296adf6a6454a050679cde90f95350ad604b171",
+                "reference": "3296adf6a6454a050679cde90f95350ad604b171",
                 "shasum": ""
             },
             "require": {
@@ -1013,15 +970,17 @@
                 "portable",
                 "shim"
             ],
-            "time": "2018-05-30T15:56:36+00:00"
+            "time": "2018-04-26T10:06:28+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "php": "^7.0"
+    },
     "platform-dev": []
 }
